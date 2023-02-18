@@ -4,7 +4,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import RMSprop
 
-# load the mnist daataset
+# load the mnist dataset
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 # reshape and normalize the input data
